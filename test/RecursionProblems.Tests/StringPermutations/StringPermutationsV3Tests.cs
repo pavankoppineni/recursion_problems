@@ -16,12 +16,9 @@ namespace RecursionProblems.Tests.StringPermutations
             var str = "aab";
             var expectedPermutations = new HashSet<string>
             {
-                "abc",
-                "acb",
-                "bac",
-                "bca",
-                "cba",
-                "cab"
+                "aab",
+                "aba",
+                "baa"
             };
             var stringPermutation = new StringPermutationsV3();
 
